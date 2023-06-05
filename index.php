@@ -49,8 +49,13 @@
 <button type="submit">Subscribe</button>
 <form action="User" method="get"><h3>Username</h3>
 <label for="Username"></label>
-	<input type="text" name="Username" id="Username">
+	<input type="text" name="Username" id="Username" required>
 	<button type="submit">Username</button>
+</form>
+<form action="password" method="get"><h3>password</h3>
+<label for="password"></label>
+<input type="password" name="password" id="password" required>
+<button type="submit">password</button>
 </form>
 </form>
 <!-- STEP 5: Add an action attribute to the FORM start tag that points to a file called "subscribe.php", and set the method attribute to "get" -->
