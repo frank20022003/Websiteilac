@@ -43,15 +43,14 @@
 			<aside>
 <!-- STEP 4: Create a pair of FORM tags so that visitors can sign up for a newsletter -->
 <form action="subscribe" method="get"><h3>Subscribe to the newsletter</h3>
-<form action="User" method="get">
-	<h3>username</h3>
-</form>
-<label for="userName">userName>
-	<input type="submit" value="username">
 </label>
 <label for="emailAdress"></label>
 <input type="email" name="emailAdress" id="emailAdress" required>
 <button type="submit">Subscribe</button>
+<form action="User" method="get"><h3>Username</h3>
+	<label for="Username"></label>
+	<input type="submit" value="Username">
+</form>
 </form>
 <!-- STEP 5: Add an action attribute to the FORM start tag that points to a file called "subscribe.php", and set the method attribute to "get" -->
 <!-- STEP 6: Add an H3 element inside the FORM tags that reads, "Subscribe to Newsletter" -->
