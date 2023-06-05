@@ -48,9 +48,9 @@
 <input type="email" name="emailAdress" id="emailAdress" required>
 <button type="submit">Subscribe</button>
 <form action="User" method="get"><h3>Username</h3>
-</form>
+
 <label for="Username"></label>
-	<input type="submit" value="Username">
+	<input type="text" name="Username" id="Username">
 	<button type="submit">Username</button>
 </form>
 <!-- STEP 5: Add an action attribute to the FORM start tag that points to a file called "subscribe.php", and set the method attribute to "get" -->
