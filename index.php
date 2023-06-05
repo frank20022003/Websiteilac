@@ -42,7 +42,7 @@
 			<!-- Side Notes / Related Information -->
 			<aside>
 <!-- STEP 4: Create a pair of FORM tags so that visitors can sign up for a newsletter -->
-<form action="subscribe.php" method="get"><h3>Subscribe to the newsletter</h3>
+<form id="log" action="subscribe.php" method="get"><h3>Subscribe to the newsletter</h3>
 </label>
 <label for="emailAdress"></label>
 <input type="email" name="emailAdress" id="emailAdress" required>
